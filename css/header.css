@@ -1,0 +1,28 @@
+.header__menu{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 40px 40px;
+    gap: 25px;
+    justify-content: center;
+}
+
+.header__menu a{
+    text-decoration: none;
+    background-color: #f7f7f7;
+    color: black;
+    border-radius: 4px;
+    line-height: 1.1;
+    padding: 15px 20px; /*Aumento da area de click*/
+    border: 2px solid transparent;
+}
+
+.header__menu a:hover{
+    border-color: black;
+}
+
+@media (max-width: 400px){
+    .header__menu{
+        gap: 10px;
+    }
+}
